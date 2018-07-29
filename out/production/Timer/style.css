@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "pixelFont";
+    src: url("./pixel.ttf");
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#mainContainer {
+    background-color: black; 
+    width: 100vw; 
+    height: 100vh; 
+    padding: 0px; 
+    text-align: center;
+}
+
+#timerContainer {
+    font-family: 'pixelFont'; 
+    width: 100vw; 
+    height: 10vh; 
+    font-size: 30vh; 
+    display: inline-block;
+    color:red; 
+    margin-top: 30vh; 
+    text-align: center;
+}
+
+.button {
+    font-family: 'pixelFont'; 
+    font-size: 10vh;
+    margin: 64px; 
+    color:white
+}
